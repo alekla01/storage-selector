@@ -17,7 +17,7 @@
 #ifndef _HEAP_H_
 #define _HEAP_H_
 
-#include "HeapBlockDevice.h"
+#include "bd/HeapBlockDevice.h"
 
 HeapBlockDevice* _storage_selector_HEAP();
 
