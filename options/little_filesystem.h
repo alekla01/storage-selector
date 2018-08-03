@@ -20,6 +20,8 @@
 #include "BlockDevice.h"
 #include "LittleFileSystem.h"
 
+using namespace mbed;
+
 LittleFileSystem* _filesystem_selector_LITTLE(const char* mount, BlockDevice* bd, unsigned int instance_num);
 
 #endif //STORAGE_SELECTOR_LITTLE_FILESYSTEM_H

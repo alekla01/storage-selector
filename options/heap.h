@@ -19,6 +19,8 @@
 
 #include "HeapBlockDevice.h"
 
-mbed::HeapBlockDevice* _storage_selector_HEAP();
+using namespace mbed;
+
+HeapBlockDevice* _storage_selector_HEAP();
 
 #endif //_HEAP_H_

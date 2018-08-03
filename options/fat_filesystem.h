@@ -20,6 +20,8 @@
 #include "BlockDevice.h"
 #include "FATFileSystem.h"
 
-FATFileSystem* _filesystem_selector_FAT(const char* mount, mbed::BlockDevice* bd, unsigned int instance_num);
+using namespace mbed;
+
+FATFileSystem* _filesystem_selector_FAT(const char* mount, BlockDevice* bd, unsigned int instance_num);
 
 #endif //STORAGE_SELECTOR_FAT_FILESYSTEM_H
