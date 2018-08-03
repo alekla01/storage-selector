@@ -20,6 +20,8 @@
 #include "BlockDevice.h"
 #include "filesystem/FileSystem.h"
 
+using namespace mbed;
+
 BlockDevice* storage_selector();
 
 #ifdef MBED_CONF_STORAGE_SELECTOR_FILESYSTEM
